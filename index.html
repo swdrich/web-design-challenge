@@ -16,29 +16,30 @@
 <body>
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">Latitude</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Data</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#">Comparison</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown link
+              Visualizations
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="#">Temperature vs. Latitude</a>
+              <a class="dropdown-item" href="#">Cloudiness vs. Latitude</a>
+              <a class="dropdown-item" href="#">Humidity vs. Latitude</a>
+              <a class="dropdown-item" href="#">Wind Speed vs. Latitude</a>
             </div>
           </li>
         </ul>
@@ -50,15 +51,32 @@
   <div class="container">
 
     <div class="row">
-      <div class="col-md-2">
-      </div>
       <div class="col=md-5">
-        <p>some content</p>
+        <h2>Project Summary: Weather vs. Latitude</h2>
       </div>
-      <div class="col-md-3">
-        <p>some other content</p>
-      </div>
+
       <div class="col-md-2">
+      </div>
+
+      <div class="col-md-4">
+        <h3>Visualizations</h3>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-5">
+        <img src="Images/temp_plot.png" width="500px" alias="temperature v latitude plot">
+        <p>Some text here</p>
+      </div>
+
+      <div class="col-md-2">
+      </div>
+
+      <div class="col-md-4">
+        <img src="Images/temp_plot.png" width="300px" alias="temperature v latitude plot">
+        <img src="Images/cloud_plot.png" width="300px" alias="cloudiness v latitude plot">
+        <img src="Images/humid_plot.png" width="300px" alias="humidity v latitude plot">
+        <img src="Images/wind_plot.png" width="300px" alias="wind speed v latitude plot">
       </div>
     </div>
 
