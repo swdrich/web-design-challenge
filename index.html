@@ -14,56 +14,66 @@
 </head>
 
 <body>
-  <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Latitude</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="http://swdrich.github.io/web-design-challenge">Home<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="http://swdrich.github.io/web-design-challenge/weather_table.html">Data</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="http://swdrich.github.io/web-design-challenge/comparison.html">Comparison</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Visualizations
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="http://swdrich.github.io/web-design-challenge/temps.html">Temperature vs. Latitude</a>
-              <a class="dropdown-item" href="http://swdrich.github.io/web-design-challenge/clouds.html">Cloudiness vs. Latitude</a>
-              <a class="dropdown-item" href="http://swdrich.github.io/web-design-challenge/humidity.html">Humidity vs. Latitude</a>
-              <a class="dropdown-item" href="http://swdrich.github.io/web-design-challenge/wind.html">Wind Speed vs. Latitude</a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </nav>
+  
+ <!-- Nav Bar  -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Latitude</a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="http://swdrich.github.io/web-design-challenge/index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="http://swdrich.github.io/web-design-challenge/weather_table.html">Source Data</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="http://swdrich.github.io/web-design-challenge/comparison.html">Comparison and Analysis</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Visualizations
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="http://swdrich.github.io/web-design-challenge/temps.html">Temperature vs. Latitude</a>
+          <a class="dropdown-item" href="http://swdrich.github.io/web-design-challenge/humidity.html">Humidity vs. Latitude</a>
+          <a class="dropdown-item" href="http://swdrich.github.io/web-design-challenge/clouds.html">Cloudiness vs. Latitude</a>
+          <a class="dropdown-item" href="http://swdrich.github.io/web-design-challenge/wind.html">Wind Speed vs. Latitude</a>
+        </div>
+      </li>
+    </ul>
   </div>
+</nav>
+
 
 
   <div class="container">
 
     <div class="row">
-      <div class="col=md-5">
-        <h2>Project Summary: Weather vs. Latitude</h2>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
       </div>
-
-      <div class="col-md-2">
-      </div>
-
-      <div class="col-md-4">
-        <h3>Visualizations</h3>
+      <div class="col-sm-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
       </div>
     </div>
-
-    <div class="row">
+    <!-- <div class="row">
       <div class="col-md-5">
         <img src="Images/temp_plot.png" width="500px" alias="temperature v latitude plot">
         <p>Some text here</p>
@@ -78,7 +88,7 @@
         <img src="Images/humid_plot.png" width="300px" alias="humidity v latitude plot">
         <img src="Images/wind_plot.png" width="300px" alias="wind speed v latitude plot">
       </div>
-    </div>
+    </div> -->
 
   </div>
 
