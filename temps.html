@@ -17,23 +17,14 @@
 
   <!-- Nav Bar  -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"><b>Weather vs. Latitude</b></a>
+    <a class="navbar-brand" href="http://swdrich.github.io/web-design-challenge/index.html"><b>Weather vs. Latitude</b></a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item active">
-          <a class="nav-link" href="http://swdrich.github.io/web-design-challenge/index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="http://swdrich.github.io/web-design-challenge/weather_table.html">Source Data</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="http://swdrich.github.io/web-design-challenge/comparison.html">Comparison and Analysis</a>
-        </li>
+      <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Visualizations
@@ -45,18 +36,47 @@
             <a class="dropdown-item" href="http://swdrich.github.io/web-design-challenge/wind.html">Wind Speed vs. Latitude</a>
           </div>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://swdrich.github.io/web-design-challenge/weather_table.html">Source Data</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://swdrich.github.io/web-design-challenge/comparison.html">Comparison and Analysis</a>
+        </li>
       </ul>
     </div>
   </nav>
-    <div class="container">
 
-        <div class="row">
-            <div class="col-md-6">
-                <h2>Temperature vs. Latitude</h2>
-            </div>
+  <!-- Content -->
+  <div class="container">
 
+    <div class="row">
+      <div class="col-md-8">
+        <div class="card">
+          <div class="card-body">
+            <h1 class="card-title">Temperature vs. Latitude</h1>
+            <hr>
+            <img class="card-img" src="Images/temp_plot.png" width="300px" alt="temperature vs latitude plot">
+            <p class="card-text">
+              <p>Temperature analysis goes here.</p>
+            </p>
+          </div>
         </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <h3 class="card-title">Visualizations</h3>
+            <hr>
+            <a href="http://swdrich.github.io/web-design-challenge/temps.html"><img src="Images/temp_plot.png" width="300px" alt="temperature vs latitude plot"></a>
+            <a href="http://swdrich.github.io/web-design-challenge/humidity.html"><img src="Images/humid_plot.png" width="300px" alt="humidity vs latitude plot"></a>
+            <a href="http://swdrich.github.io/web-design-challenge/clouds.html"><img src="Images/cloud_plot.png" width="300px" alt="cloudiness vs latitude plot"></a>
+            <a href="http://swdrich.github.io/web-design-challenge/wind.html"><img src="Images/wind_plot.png" width="300px" alt="wind speed vs latitude plot"></a>
+          </div>
+        </div>
+      </div>
     </div>
+    
+  </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
